@@ -1,0 +1,442 @@
+[
+  {
+    "id": "mt_001",
+    "description": "Multi-turn from: As described in Quality Systems Approach to Pharmaceutical C...",
+    "turns": [
+      {
+        "turn": 1,
+        "question": "As described in Quality Systems Approach to Pharmaceutical Current Good Manufacturing Practice Regulations , What are some best practices for implementing production and process controls?",
+        "intent": "document_content",
+        "expected_documents": [
+          "FDA-038"
+        ]
+      },
+      {
+        "turn": 2,
+        "question": "How often should these be conducted to ensure compliance?",
+        "expected_standalone": "How often should production and process control audits and inspections be conducted to ensure compliance with pharmaceutical cGMP regulations?",
+        "expected_documents": [
+          "FDA-038"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt_002",
+    "description": "Multi-turn from: With reference to Quality Systems Approach to Pharmaceutical...",
+    "turns": [
+      {
+        "turn": 1,
+        "question": "With reference to Quality Systems Approach to Pharmaceutical Current Good Manufacturing Practice Regulations , Do the procedures used for preparing the S9 activator fraction (liver microsomal fraction from rats challenged with a toxin) have to be performed in accord with the GLPs?",
+        "intent": "document_content",
+        "expected_documents": [
+          "FDA-038"
+        ]
+      },
+      {
+        "turn": 2,
+        "question": "What about the other fractions then?",
+        "expected_standalone": "Do the procedures used for preparing liver microsomal fractions other than the S9 activator fraction have to be performed in accordance with GLPs under the Quality Systems Approach to Pharmaceutical Current Good Manufacturing Practice Regulations?",
+        "expected_documents": [
+          "FDA-038"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt_003",
+    "description": "Multi-turn from: In accordance with Quality Systems Approach to Pharmaceutica...",
+    "turns": [
+      {
+        "turn": 1,
+        "question": "In accordance with Quality Systems Approach to Pharmaceutical Current Good Manufacturing Practice Regulations , If raw data are transcribed and sent to the sponsor for (a) preparing the data in computer format or (b) performing a statistical analysis, what are the responsibilities of the QAU?",
+        "intent": "document_content",
+        "expected_documents": [
+          "FDA-038"
+        ]
+      },
+      {
+        "turn": 2,
+        "question": "What specific verification methods should be used to ensure accuracy?",
+        "expected_standalone": "In the context of QAU responsibilities for raw data transcription sent to sponsors for computer formatting or statistical analysis, what specific verification methods should the QAU use to ensure that the computer formatted data accurately reflect the original raw data?",
+        "expected_documents": [
+          "FDA-038"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt_004",
+    "description": "Multi-turn from: Guideline title: Quality Systems Approach to Pharmaceutical ...",
+    "turns": [
+      {
+        "turn": 1,
+        "question": "Guideline title: Quality Systems Approach to Pharmaceutical Current Good Manufacturing Practice Regulations  Can you provide examples of production and process controls for drug manufacturing?",
+        "intent": "document_content",
+        "expected_documents": [
+          "FDA-038"
+        ]
+      },
+      {
+        "turn": 2,
+        "question": "How should these be documented and what approval process is required?",
+        "expected_standalone": "How should production and process controls for drug manufacturing be documented, and what approval process is required for batch records in pharmaceutical manufacturing?",
+        "expected_documents": [
+          "FDA-038"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt_005",
+    "description": "Multi-turn from: Having read through CVM GFI #156 Comparability Protocols - C...",
+    "turns": [
+      {
+        "turn": 1,
+        "question": "Having read through CVM GFI #156 Comparability Protocols - Chemistry, Manufacturing, and Controls Information for New Animal Drugs , How were materials for the container-closure system chosen (e.g., to provide light protection or minimize leachability)?",
+        "intent": "document_content",
+        "expected_documents": [
+          "FDA-005"
+        ]
+      },
+      {
+        "turn": 2,
+        "question": "What specific standards and testing methods are referenced to demonstrate their acceptability?",
+        "expected_standalone": "What specific standards and testing methods are referenced in CVM GFI #156 to demonstrate the acceptability of container-closure system materials for new animal drugs?",
+        "expected_documents": [
+          "FDA-005"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt_006",
+    "description": "Multi-turn from: In light of the details from CVM GFI #156 Comparability Prot...",
+    "turns": [
+      {
+        "turn": 1,
+        "question": "In light of the details from CVM GFI #156 Comparability Protocols - Chemistry, Manufacturing, and Controls Information for New Animal Drugs , Where does CVM want this information?",
+        "intent": "document_content",
+        "expected_documents": [
+          "FDA-005"
+        ]
+      },
+      {
+        "turn": 2,
+        "question": "Can it be split between both locations, or does it all have to go in one?",
+        "expected_standalone": "According to CVM GFI #156 Comparability Protocols for Chemistry, Manufacturing, and Controls Information in New Animal Drugs, can the required information be split between S.1 and S.3, or must it all be submitted in a single section?",
+        "expected_documents": [
+          "FDA-005"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt_007",
+    "description": "Multi-turn from: As per the details in CVM GFI #156 Comparability Protocols -...",
+    "turns": [
+      {
+        "turn": 1,
+        "question": "As per the details in CVM GFI #156 Comparability Protocols - Chemistry, Manufacturing, and Controls Information for New Animal Drugs , Is there more than one drug substance in your product? What evidence supports the compatibility of the drug substances with each other?",
+        "intent": "document_content",
+        "expected_documents": [
+          "FDA-005"
+        ]
+      },
+      {
+        "turn": 2,
+        "question": "What justification should be provided if any issues are found?",
+        "expected_standalone": "According to CVM GFI #156 Comparability Protocols for Chemistry, Manufacturing, and Controls Information for New Animal Drugs, what justification should be provided if incompatibility issues are identified between drug substances, and what types of supporting data (such as stability data or impurity studies) should be included?",
+        "expected_documents": [
+          "FDA-005"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt_008",
+    "description": "Multi-turn from: When considering the information from CVM GFI #156 Comparabi...",
+    "turns": [
+      {
+        "turn": 1,
+        "question": "When considering the information from CVM GFI #156 Comparability Protocols - Chemistry, Manufacturing, and Controls Information for New Animal Drugs , What excipients were chosen for use in the final formulation and what are their roles in the drug product (e.g., anti-dusting agent, binding agent)?",
+        "intent": "document_content",
+        "expected_documents": [
+          "FDA-005"
+        ]
+      },
+      {
+        "turn": 2,
+        "question": "How should we justify their selection and provide evidence that they can fulfill their intended roles?",
+        "expected_standalone": "How should an applicant justify the selection of excipients in a new animal drug formulation and provide evidence that each excipient can fulfill its intended role in the drug product?",
+        "expected_documents": [
+          "FDA-005"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt_009",
+    "description": "Multi-turn from: Based on the information from Assay Migration Studies for In...",
+    "turns": [
+      {
+        "turn": 1,
+        "question": "Based on the information from Assay Migration Studies for In Vitro Diagnostic Devices Guidance for Industry and FDA Staff, How do IVD devices differ from other devices?",
+        "intent": "document_content",
+        "expected_documents": [
+          "FDA-003"
+        ]
+      },
+      {
+        "turn": 2,
+        "question": "What are the specific implications of this distinction for regulatory approval?",
+        "expected_standalone": "What are the specific implications of IVD devices functioning outside the patient body for regulatory approval processes?",
+        "expected_documents": [
+          "FDA-003"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt_010",
+    "description": "Multi-turn from: Looking at the guidelines in Assay Migration Studies for In ...",
+    "turns": [
+      {
+        "turn": 1,
+        "question": "Looking at the guidelines in Assay Migration Studies for In Vitro Diagnostic Devices Guidance for Industry and FDA Staff, Where can I find the \"Good Clinical Practice\" Guideline from the International Conference on Harmonization?",
+        "intent": "document_content",
+        "expected_documents": [
+          "FDA-003"
+        ]
+      },
+      {
+        "turn": 2,
+        "question": "What is the publication date and Federal Register volume for that?",
+        "expected_standalone": "What is the publication date and Federal Register volume for the International Conference on Harmonization's Good Clinical Practice Guideline?",
+        "expected_documents": [
+          "FDA-003"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt_011",
+    "description": "Multi-turn from: Given the context of Assay Migration Studies for In Vitro Di...",
+    "turns": [
+      {
+        "turn": 1,
+        "question": "Given the context of Assay Migration Studies for In Vitro Diagnostic Devices Guidance for Industry and FDA Staff, What is a subject?",
+        "intent": "document_content",
+        "expected_documents": [
+          "FDA-003"
+        ]
+      },
+      {
+        "turn": 2,
+        "question": "Can they be used interchangeably with controls, or are there specific requirements that distinguish them?",
+        "expected_standalone": "In the context of Assay Migration Studies for In Vitro Diagnostic Devices, can subjects be used interchangeably with controls, or are there specific requirements that distinguish them?",
+        "expected_documents": [
+          "FDA-003"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt_012",
+    "description": "Multi-turn from: Upon checking the information in Assay Migration Studies for...",
+    "turns": [
+      {
+        "turn": 1,
+        "question": "Upon checking the information in Assay Migration Studies for In Vitro Diagnostic Devices Guidance for Industry and FDA Staff, What is \"Precision\"?",
+        "intent": "document_content",
+        "expected_documents": [
+          "FDA-003"
+        ]
+      },
+      {
+        "turn": 2,
+        "question": "How is it typically measured and what are the acceptance criteria for it?",
+        "expected_standalone": "How is precision in diagnostic assays typically measured and what are the acceptance criteria for precision according to the Assay Migration Studies guidance?",
+        "expected_documents": [
+          "FDA-003"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt_013",
+    "description": "Multi-turn from: As stated in Small Entity Compliance Guide- Revision of the ...",
+    "turns": [
+      {
+        "turn": 1,
+        "question": "As stated in Small Entity Compliance Guide- Revision of the Nutrition and Supplement Facts Labels , Should I make the statement of identity stand out?",
+        "intent": "document_content",
+        "expected_documents": [
+          "FDA-042"
+        ]
+      },
+      {
+        "turn": 2,
+        "question": "What format should it be in?",
+        "expected_standalone": "What format should the statement of identity be in according to the Small Entity Compliance Guide for Nutrition and Supplement Facts Labels?",
+        "expected_documents": [
+          "FDA-042"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt_014",
+    "description": "Multi-turn from: As per the details in Small Entity Compliance Guide- Revisio...",
+    "turns": [
+      {
+        "turn": 1,
+        "question": "As per the details in Small Entity Compliance Guide- Revision of the Nutrition and Supplement Facts Labels , May I use qualifying phrases in the net quantity of contents statement?",
+        "intent": "document_content",
+        "expected_documents": [
+          "FDA-042"
+        ]
+      },
+      {
+        "turn": 2,
+        "question": "What if I need to clarify something about it?",
+        "expected_standalone": "What if I need to clarify something about the use of qualifying phrases in the net quantity of contents statement for Nutrition and Supplement Facts Labels?",
+        "expected_documents": [
+          "FDA-042"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt_015",
+    "description": "Multi-turn from: When considering the information from Small Entity Complianc...",
+    "turns": [
+      {
+        "turn": 1,
+        "question": "When considering the information from Small Entity Compliance Guide- Revision of the Nutrition and Supplement Facts Labels , May I locate the \"Supplement Facts\" panel on other than the information panel?",
+        "intent": "document_content",
+        "expected_documents": [
+          "FDA-042"
+        ]
+      },
+      {
+        "turn": 2,
+        "question": "Does it need to be in a specific format?",
+        "expected_standalone": "Does the Supplement Facts panel need to be in a specific format according to the Small Entity Compliance Guide for Nutrition and Supplement Facts Labels?",
+        "expected_documents": [
+          "FDA-042"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt_016",
+    "description": "Multi-turn from: In light of the details from Small Entity Compliance Guide- ...",
+    "turns": [
+      {
+        "turn": 1,
+        "question": "In light of the details from Small Entity Compliance Guide- Revision of the Nutrition and Supplement Facts Labels , How do I list a chemical preservative?",
+        "intent": "document_content",
+        "expected_documents": [
+          "FDA-042"
+        ]
+      },
+      {
+        "turn": 2,
+        "question": "Do I need to do this for all of them, or just the main ones?",
+        "expected_standalone": "According to the Small Entity Compliance Guide for Nutrition and Supplement Facts Labels, do I need to list the function description for all chemical preservatives in my product, or only for the main/primary preservatives?",
+        "expected_documents": [
+          "FDA-042"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt_017",
+    "description": "Multi-turn from: This question is about E14 Clinical Evaluation of QT:QTc Int...",
+    "turns": [
+      {
+        "turn": 1,
+        "question": "This question is about E14 Clinical Evaluation of QT:QTc Interval Prolongation and Proarrhythmic Potential for Non-Antiarrhythmic Drugs  In general, do combinations of two or more drugs need a thorough QT/QTc study or intensive late stage monitoring?",
+        "intent": "document_content",
+        "expected_documents": [
+          "FDA-011"
+        ]
+      },
+      {
+        "turn": 2,
+        "question": "What exceptions or conditions would require them despite what you just mentioned?",
+        "expected_standalone": "What exceptions or conditions would require combinations of two or more drugs to undergo thorough QT/QTc studies or intensive late stage monitoring, despite the general guidance that they are unlikely to need such evaluation if component drugs lack relevant effects?",
+        "expected_documents": [
+          "FDA-011"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt_018",
+    "description": "Multi-turn from: Upon checking the information in E14 Clinical Evaluation of ...",
+    "turns": [
+      {
+        "turn": 1,
+        "question": "Upon checking the information in E14 Clinical Evaluation of QT:QTc Interval Prolongation and Proarrhythmic Potential for Non-Antiarrhythmic Drugs \n\nS7B Nonclinical Evaluation of the Potential for Delayed Ventricular Repolarization (QT Interval Prolongation) by Human Pharmaceuticals , Are sponsors expected to conduct thorough QT studies as part of the development of large proteins and monoclonal antibodies? (6.3)",
+        "intent": "document_content",
+        "expected_documents": [
+          "FDA-011"
+        ]
+      },
+      {
+        "turn": 2,
+        "question": "What are the exceptions to this requirement?",
+        "expected_standalone": "What are the exceptions to the requirement that sponsors are not expected to conduct thorough QT studies for large proteins and monoclonal antibodies?",
+        "expected_documents": [
+          "FDA-011"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt_019",
+    "description": "Multi-turn from: Drawing from the insights of E14 Clinical Evaluation of QT:Q...",
+    "turns": [
+      {
+        "turn": 1,
+        "question": "Drawing from the insights of E14 Clinical Evaluation of QT:QTc Interval Prolongation and Proarrhythmic Potential for Non-Antiarrhythmic Drugs , Can you provide examples of ECG monitoring in late stage?",
+        "intent": "document_content",
+        "expected_documents": [
+          "FDA-011"
+        ]
+      },
+      {
+        "turn": 2,
+        "question": "What are the specific timing intervals and frequency recommendations for conducting these throughout the treatment period?",
+        "expected_standalone": "What are the specific timing intervals and frequency recommendations for conducting ECG monitoring investigations throughout the drug treatment period in late-stage clinical evaluation of QT/QTc interval prolongation?",
+        "expected_documents": [
+          "FDA-011"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt_020",
+    "description": "Multi-turn from: Upon checking the information in E14 Clinical Evaluation of ...",
+    "turns": [
+      {
+        "turn": 1,
+        "question": "Upon checking the information in E14 Clinical Evaluation of QT:QTc Interval Prolongation and Proarrhythmic Potential for Non-Antiarrhythmic Drugs , Are thorough QT studies necessary for the development of large proteins and monoclonal antibodies?",
+        "intent": "document_content",
+        "expected_documents": [
+          "FDA-011"
+        ]
+      },
+      {
+        "turn": 2,
+        "question": "What about when they're combined with other drugs that are known to prolong the QT interval?",
+        "expected_standalone": "According to E14 Clinical Evaluation of QT:QTc Interval Prolongation and Proarrhythmic Potential for Non-Antiarrhythmic Drugs, what are the recommendations for thorough QT studies when large proteins and monoclonal antibodies are combined with other drugs that are known to prolong the QT interval?",
+        "expected_documents": [
+          "FDA-011"
+        ]
+      }
+    ]
+  }
+]

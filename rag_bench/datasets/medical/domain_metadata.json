@@ -1,0 +1,17 @@
+{
+  "domain_name": "Medical and Regulatory",
+  "source": {
+    "type": "huggingface",
+    "dataset": "rag-adversarial-bench/medical"
+  },
+  "chunk_count": 3448,
+  "doc_count": 41,
+  "ir_cases": 300,
+  "ood_cases": 50,
+  "poisoned_cases": 20,
+  "multiturn_cases": 20,
+  "generation_model": "claude-haiku-4-5",
+  "total_input_tokens": 11920,
+  "total_output_tokens": 7224,
+  "estimated_cost_usd": 0.048
+}

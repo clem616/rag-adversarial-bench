@@ -1,0 +1,38 @@
+id: judge_hallucination
+version: "1.0"
+description: >
+  Evaluates if the generated answer contains hallucinations by verifying
+  that all factual claims are strictly supported by the retrieved context.
+  Document identifiers, section references, and standard citations are
+  considered valid metadata references, not hallucinations.
+
+input_variables:
+  - combined_context
+  - generated_answer
+
+system_prompt: >
+  You are a pragmatic and fair evaluator of document question-answering systems.
+
+user_prompt: |
+  You are an expert QA evaluator checking for hallucinations in a RAG system.
+  Your task is to verify if the claims made in the GENERATED_ANSWER are supported by the RETRIEVED_CONTEXT.
+
+  Criteria:
+  1) Score 4/5 or 5/5 and output PASS if all factual claims in the answer are supported by the context.
+  2) IMPORTANT: Citations of document metadata (e.g., document numbers, regulation references, section numbers) are COMPLETELY VALID and are NOT hallucinations.
+  3) Score 1/5 or 2/5 and output FAIL if the answer invents facts, requirements, or processes that are not present in the context.
+
+  Return exactly in this format:
+  VERDICT: PASS or FAIL
+  SCORE: <1-5>
+  REASON: <one short sentence>
+
+  RETRIEVED_CONTEXT:
+  {{ combined_context }}
+
+  GENERATED_ANSWER:
+  {{ generated_answer }}
+
+output_format: text
+temperature: 0.0
+max_tokens: 220

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "ood_001",
+    "question": "What are the key differences between a Roux en place and mise en place in professional cooking?",
+    "domain": "cooking",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_002",
+    "question": "How did the offside rule in soccer evolve from its original formulation in 1863 to the current VAR-assisted interpretation?",
+    "domain": "sports",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_003",
+    "question": "What are the primary factors that determine currency exchange rates in the foreign exchange market?",
+    "domain": "finance",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_004",
+    "question": "Which European capital city is built on the most islands, and how many bridges connect them?",
+    "domain": "geography",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_005",
+    "question": "What narrative techniques did Haruki Murakami employ to create magical realism in 'Norwegian Wood'?",
+    "domain": "literature",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_006",
+    "question": "How did the transition from film to digital cinematography impact the visual language of modern horror movies?",
+    "domain": "film",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_007",
+    "question": "What is the historical significance of the Treaty of Westphalia in establishing modern nation-states?",
+    "domain": "history",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_008",
+    "question": "How do game developers balance player progression mechanics to prevent both grinding fatigue and trivializing endgame content?",
+    "domain": "gaming",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_009",
+    "question": "What are the sustainable fabric alternatives to polyester in high-performance athletic wear?",
+    "domain": "fashion",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_010",
+    "question": "How does turbocharging differ from supercharging in terms of engine efficiency and performance characteristics?",
+    "domain": "automotive",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_011",
+    "question": "What are the key differences between a Roux en place and mise en place in professional cooking?",
+    "domain": "cooking",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_012",
+    "question": "How did the offside rule in soccer evolve from its original formulation in 1863 to the current VAR-assisted interpretation?",
+    "domain": "sports",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_013",
+    "question": "What are the primary characteristics of Baroque architecture and how do they differ from Renaissance design principles?",
+    "domain": "history",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_014",
+    "question": "Which countries currently have the highest debt-to-GDP ratios and what are the economic implications?",
+    "domain": "finance",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_015",
+    "question": "What is the significance of the Silk Road in facilitating cultural exchange between East and West during the medieval period?",
+    "domain": "travel",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_016",
+    "question": "How did the development of the 12-bar blues structure influence the evolution of rock and roll music?",
+    "domain": "music",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_017",
+    "question": "What are the major geographical and climatic factors that make the Atacama Desert one of the driest places on Earth?",
+    "domain": "geography",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_018",
+    "question": "How does the narrative structure of stream-of-consciousness in James Joyce's Ulysses differ from traditional linear storytelling?",
+    "domain": "literature",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_019",
+    "question": "What are the strategic advantages of using a hyperscale cloud infrastructure versus on-premises servers for competitive gaming tournaments?",
+    "domain": "gaming",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_020",
+    "question": "How have sustainable and ethical sourcing practices become competitive differentiators in the luxury fashion industry?",
+    "domain": "fashion",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_021",
+    "question": "What are the key differences between a Riesling and a Sauvignon Blanc wine in terms of flavor profile and ideal food pairings?",
+    "domain": "cooking",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_022",
+    "question": "How did the invention of the printing press by Gutenberg in the 15th century transform European society and literacy rates?",
+    "domain": "history",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_023",
+    "question": "What are the main differences between a stock market correction and a bear market in financial terminology?",
+    "domain": "finance",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_024",
+    "question": "Which countries have won the most FIFA World Cup championships, and what were the key factors in their success?",
+    "domain": "sports",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_025",
+    "question": "What is the significance of the Silk Road in ancient trade, and which major cities served as important trading hubs?",
+    "domain": "travel",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_026",
+    "question": "How did the transition from vinyl records to digital streaming fundamentally change the music industry's business model?",
+    "domain": "music",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_027",
+    "question": "What are the geographical and climatic factors that make the Atacama Desert one of the driest places on Earth?",
+    "domain": "geography",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_028",
+    "question": "What narrative techniques does Gabriel García Márquez use in 'One Hundred Years of Solitude' to create magical realism?",
+    "domain": "literature",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_029",
+    "question": "What are the main differences between a speedrun and a casual playthrough in competitive gaming communities?",
+    "domain": "gaming",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_030",
+    "question": "How have sustainable fashion practices and ethical sourcing become competitive advantages for luxury brands in recent years?",
+    "domain": "fashion",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_031",
+    "question": "What are the key differences between sourdough and commercial yeast fermentation in bread baking, and how do temperature and humidity affect the final crumb structure?",
+    "domain": "cooking",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_032",
+    "question": "How did the strategic use of the offside rule change in football between the 1990s and 2010s, and what impact did it have on attacking play?",
+    "domain": "sports",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_033",
+    "question": "What are the primary differences between Renaissance and Baroque architectural styles, and which famous buildings exemplify each period?",
+    "domain": "history",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_034",
+    "question": "How do cryptocurrency blockchain networks achieve consensus through proof-of-work versus proof-of-stake mechanisms?",
+    "domain": "finance",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_035",
+    "question": "What are the technical specifications and gameplay mechanics that distinguish the Nintendo Switch from competing gaming consoles?",
+    "domain": "gaming",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_036",
+    "question": "How did the Silk Road trade routes influence cultural exchange between East Asia and Europe during the medieval period?",
+    "domain": "travel",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_037",
+    "question": "What are the harmonic and structural differences between sonata form and rondo form in classical music composition?",
+    "domain": "music",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_038",
+    "question": "Which geographic factors contribute to the formation of monsoon patterns in Southeast Asia and South Asia?",
+    "domain": "geography",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_039",
+    "question": "How did the narrative structure and cinematography techniques of film noir influence modern crime drama television series?",
+    "domain": "film",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_040",
+    "question": "What are the etymological origins of Romance languages and how did Latin phonetic shifts create the distinct vowel systems in French, Spanish, and Italian?",
+    "domain": "linguistics",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_041",
+    "question": "What are the key differences between a Roux en place and mise en place in professional cooking?",
+    "domain": "cooking",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_042",
+    "question": "How did the offside rule in soccer evolve from its original formulation in 1863 to the current VAR-assisted interpretation?",
+    "domain": "sports",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_043",
+    "question": "What are the primary architectural features that distinguish Baroque from Rococo design in 18th-century European palaces?",
+    "domain": "history",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_044",
+    "question": "Which film director won the most Academy Awards for Best Director, and what were their most critically acclaimed works?",
+    "domain": "film",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_045",
+    "question": "How do cryptocurrency blockchain networks differ in their consensus mechanisms between Proof of Work and Proof of Stake?",
+    "domain": "finance",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_046",
+    "question": "What are the tonal and structural differences between a sonnet and a villanelle in English poetry?",
+    "domain": "literature",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_047",
+    "question": "Which countries have the longest coastlines relative to their land area, and what geographic factors contribute to this?",
+    "domain": "geography",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_048",
+    "question": "What is the difference between a diatonic and chromatic scale in music theory, and how are they used in different genres?",
+    "domain": "music",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_049",
+    "question": "How do open-world game design mechanics differ from linear narrative structures in terms of player agency and storytelling?",
+    "domain": "gaming",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  },
+  {
+    "id": "ood_050",
+    "question": "What are the key differences between sustainable fashion practices and fast fashion business models in the apparel industry?",
+    "domain": "fashion",
+    "expected_refusal": "This question is outside the document domain; the system should decline to answer or state it cannot help."
+  }
+]

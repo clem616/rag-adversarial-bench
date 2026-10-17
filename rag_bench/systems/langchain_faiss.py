@@ -3,7 +3,7 @@
 Uses LangChain + FAISS + sentence-transformers (all-MiniLM-L6-v2) for retrieval
 and an OpenAI-compatible LLM endpoint for generation. No proprietary dependencies.
 
-This is the public reference implementation for the RAG-Adversarial-Bench leaderboard.
+This is the public reference implementation shipped with RAG-Adversarial-Bench.
 Researchers can reproduce its results to establish a baseline before benchmarking
 their own system.
 

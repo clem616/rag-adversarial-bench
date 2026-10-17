@@ -15,7 +15,7 @@ classifiers = [
 ]
 
 authors = [
-    { name = "RAG-Adversarial-Bench Contributors" },
+    { name = "Clément Melkior" },
 ]
 
 dependencies = [
@@ -26,8 +26,7 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/rag-adversarial-bench/rag-adversarial-bench"
-# Paper URL will be added here upon arXiv publication.
+Repository = "https://github.com/clem616/rag-adversarial-bench"
 
 [project.optional-dependencies]
 # LLM judge for P3/P6/P7/P8 (Anthropic API or Azure AI Foundry)

@@ -1,7 +1,7 @@
 """Generate LaTeX tables from RAG-Adversarial-Bench JSON result files.
 
 Reads one or more result JSON files (from run_benchmark.py --output) and emits
-ready-to-paste LaTeX tabular environments for the arXiv paper.
+ready-to-paste LaTeX tabular environments.
 
 Usage:
     uv run python3 scripts/generate_latex_tables.py \\
@@ -11,7 +11,7 @@ Usage:
     # With a custom output file
     uv run python3 scripts/generate_latex_tables.py \\
         huggingface_dataset/results/reference_langchain_faiss.json \\
-        --output arxiv_preprint/tables.tex
+        --output tables.tex
 """
 
 from __future__ import annotations

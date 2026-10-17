@@ -6,7 +6,7 @@ Uses the Anthropic Messages API directly via HTTP.
 Configuration (environment variables):
     RAG_BENCH_JUDGE_BASE_URL  — defaults to https://api.anthropic.com
     RAG_BENCH_JUDGE_MODEL     — defaults to claude-haiku-4-5-20251001
-                                Set to claude-sonnet-4-6 for official/publication runs.
+                                Set to claude-sonnet-4-6 for reference runs.
     RAG_BENCH_API_KEY         — required; raises JudgeUnavailable if absent
 """
 

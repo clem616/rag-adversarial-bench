@@ -204,7 +204,7 @@ Included at `rag_bench/datasets/medical/`:
 
 P3 uses the first 50 IR cases to cap cost (50 × passes × 2 judge calls). P7 and P8 use the first 20 questions that P2 retrieved correctly.
 
-A dataset for another domain can be generated with [domain-ingestion-engine](https://github.com/clem616/domain-ingestion-engine):
+A dataset for another domain can be generated with `domain-ingestion-engine`, a companion tool not yet published, then passed with `--dataset`:
 
 ```bash
 python -m rag_bench.run_benchmark \
